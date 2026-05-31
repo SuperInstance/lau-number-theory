@@ -1,0 +1,13 @@
+[package]
+name = "lau-number-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-number-theory"
+description = "Algebraic and analytic number theory — primes, modular arithmetic, Diophantine equations, and cryptographic agent ID generation"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
